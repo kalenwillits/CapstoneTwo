@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
-import pandas-profiling
-path = 'data/raw/On_Time_On_Time_Performance_2017_1.csv'
-df = pd.read_csv(path, low_memory=False, nrows=1*10**6)
+
+path = '../data/raw/On_Time_On_Time_Performance_2017_1.csv'
+df = pd.read_csv(path, low_memory=False)
 
 
 #Which values are factors causing a delay?
@@ -73,6 +73,16 @@ df['DepTime'] = df['DepTime'].fillna(DepTime_mean)
 ArrTime_mean = df['ArrTime'].mean()
 df['ArrTime'] = df['ArrTime'].fillna(ArrTime_mean)
 
-# We can now do the same thing for Taxi Time. 
+# We can now do the same thing for Taxi Time.
 
+TaxiIn_mean = df['TaxiIn'].mean()
+df['TaxiIn'] = df['TaxiIn'].fillna(TaxiIn_mean)
+TaxiOut_mean = df['TaxiOut'].mean()
+df['TaxiOut'] = df['TaxiOut'].fillna(TaxiOut_mean)
+
+df.info()
 df.isnull().sum()
+df.head()
+df.describe()
+
+df.to_csv('../data/interim/flight_delays.csv')
