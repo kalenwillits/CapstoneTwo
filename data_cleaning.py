@@ -168,6 +168,7 @@ df['TaxiOut'] = df['TaxiOut'].fillna(TaxiOut_mean)
 TaxiIn_mean = df['AirTime'].mean()
 
 # These are values that needed to be sampled to replace missing data.
+np.random.seed(1111)
 df['LateAircraftDelay'] = df['LateAircraftDelay'].fillna(pd.Series(np.random.normal(df['LateAircraftDelay'])))
 df['AirTime'] = df['AirTime'].fillna(pd.Series(np.random.normal(df['AirTime']))) # After plotting this I realized that this needs to be sampled from a normal distribution.
 
