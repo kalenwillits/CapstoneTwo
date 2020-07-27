@@ -9,3 +9,7 @@
 [Merge a List of DataFrames](https://www.kite.com/python/answers/how-to-merge-a-list-of-pandas-dataframes-into-a-single-dataframe-in-python)
 [Sort DataFrame by column](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_values.html)
 [List Comprehensions](https://www.programiz.com/python-programming/list-comprehension)
+[Add New Column with Default Value](https://www.interviewqs.com/ddi_code_snippets/add_new_col_df_default_value)
+[How to Deal With Time Series Data in Machine Learning](https://towardsdatascience.com/time-series-machine-learning-regression-framework-9ea33929009a)
+[Date Time to Int](https://stackoverflow.com/questions/54312802/pandas-convert-from-datetime-to-integer-timestamp)
+[Normalize Datetimes?](https://dba.stackexchange.com/questions/101550/is-it-needed-to-normalize-of-date-columns)
