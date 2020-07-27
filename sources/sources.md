@@ -8,3 +8,4 @@
 [Select Rows of Values with a list](https://stackoverflow.com/questions/12096252/use-a-list-of-values-to-select-rows-from-a-pandas-dataframe)
 [Merge a List of DataFrames](https://www.kite.com/python/answers/how-to-merge-a-list-of-pandas-dataframes-into-a-single-dataframe-in-python)
 [Sort DataFrame by column](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_values.html)
+[List Comprehensions](https://www.programiz.com/python-programming/list-comprehension)
