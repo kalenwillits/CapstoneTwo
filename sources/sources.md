@@ -13,3 +13,4 @@
 [How to Deal With Time Series Data in Machine Learning](https://towardsdatascience.com/time-series-machine-learning-regression-framework-9ea33929009a)
 [Date Time to Int](https://stackoverflow.com/questions/54312802/pandas-convert-from-datetime-to-integer-timestamp)
 [Normalize Datetimes?](https://dba.stackexchange.com/questions/101550/is-it-needed-to-normalize-of-date-columns)
+[Train Test Split Docs](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
