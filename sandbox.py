@@ -1,12 +1,19 @@
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
 import pandas as pd
 
-file = open('output.txt', 'w+')
-df = pd.read_csv('data/On_Time_On_Time_Performance_2017_1.csv', low_memory=False)
-cols = df.columns.tolist()
-print(cols)
+regions = ['Pacific',
+'Mountain',
+'WestNorthCentral',
+'WestSouthCentral',
+'EastNorthCentral',
+'EastSouthCentral',
+'MiddleAtlantic',
+'SouthAtlantic',
+'NewEngland']
 
-df.plot(kind='scatter', x='DepDelay', y='ArrDelay')
-plt.show()
+cd_data = 'data/'
+for region in regions:
+    X_train = pd.read_csv(cd_data+'X_train_'+region+'.csv')
+    X_test = pd.read_csv(cd_data+'X_test_'+region+'.csv')
+    y_train = pd.read_csv(cd_data+'y_train_'+region+'.csv')
+    y_test = pd.read_csv(cd_data+'y_test_'+region+'.csv')
+    print(region+'____\n', X_train.isna().sum(), X_test.isna().sum(), y_train.isna().sum(), y_test.isna().sum())
