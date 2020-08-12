@@ -1,40 +1,10 @@
-[Crash Data](https://www.kaggle.com/saurograndi/airplane-crashes-since-1908)
 
-[On Time Performance 2017 ](https://data.world/hoytick/2017-jan-ontimeflightdata-usa)
-- [Severe Weather Data in 2017](https://data.world/noaa/severe-weather-data-meso-2017
+[2017-Jan-OnTimeFlightData-USA](https://data.world/hoytick/2017-jan-ontimeflightdata-usa)
+
+[Severe Weather Data in 2017](https://data.world/noaa/severe-weather-data-meso-2017
 
 [Top 100 airports of 2017](https://www.worldairportawards.com/the-worlds-top-100-airports-2017/)
 
 [Top 100 airports in US](http://www.fi-aeroweb.com/Top-100-US-Airports.html])
 
 [Census regions of the US](https://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf)
-
-[US state codes](https://www.ups.com/worldshiphelp/WS16/ENU/AppHelp/Codes/State_Province_Codes.htm)
-
-[Select Rows of Values with a list](https://stackoverflow.com/questions/12096252/use-a-list-of-values-to-select-rows-from-a-pandas-dataframe)
-
-[Merge a List of DataFrames](https://www.kite.com/python/answers/how-to-merge-a-list-of-pandas-dataframes-into-a-single-dataframe-in-python)
-
-[Sort DataFrame by column](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.sort_values.html)
-
-[List Comprehensions](https://www.programiz.com/python-programming/list-comprehension)
-
-[Add New Column with Default Value](https://www.interviewqs.com/ddi_code_snippets/add_new_col_df_default_value)
-
-[How to Deal With Time Series Data in Machine Learning](https://towardsdatascience.com/time-series-machine-learning-regression-framework-9ea33929009a)
-
-[Date Time to Int](https://stackoverflow.com/questions/54312802/pandas-convert-from-datetime-to-integer-timestamp)
-
-[Normalize Datetimes?](https://dba.stackexchange.com/questions/101550/is-it-needed-to-normalize-of-date-columns)
-
-[Train Test Split Docs](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
-
-[Sklearn on Time Series Regression](https://www.ethanrosenthal.com/2018/01/28/time-series-for-scikit-learn-people-part1/)
-
-[Sklearn Supervised Models](https://scikit-learn.org/stable/supervised_learning.html)
-
-[Pandas At](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.at.html?highlight=#pandas.DataFrame.at)
-
-[Mean Square Error Explanation](https://en.wikipedia.org/wiki/Mean_squared_error)
-
-[Metrics for Measuring Regression Models](https://www.datacourses.com/evaluation-of-regression-models-in-scikit-learn-846/)

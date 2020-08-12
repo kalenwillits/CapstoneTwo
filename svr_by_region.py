@@ -49,5 +49,5 @@ def predict_delays_by_region(regions):
         plt.ylabel('Delay Ratio')
         plt.xticks(range(1,32))
         plt.savefig('figures/SVR_on_'+region+'flightDelay_prediciton.png')
-# Running the model function.
+
 predict_delays_by_region(regions)
