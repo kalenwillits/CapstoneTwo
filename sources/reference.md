@@ -7,4 +7,4 @@
 
 [Top 100 airports in US](http://www.fi-aeroweb.com/Top-100-US-Airports.html])
 
-[Census regions of the US](https://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf)
+[Census Region Division of the US](https://www2.census.gov/geo/pdfs/maps-data/maps/reference/us_regdiv.pdf)
