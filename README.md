@@ -14,8 +14,13 @@ SVM parameters and metrics can be found in the "reports/model_metrics.csv" table
 
 # Directory Map
 / - Root directory contains all project files and hosts the "PredictingFlightDelays.ipynb" Jupyter Notebook and this readme.md file.
-/data - Houses all .csv files from raw and processed data. (ignored)
-/figures - Contains all plots and charts that have been generated and modified.
-/reports - Contains bottom line reports and articles about the project.
-/sandbox - Experiments and code snippets that did not make it into the final Jupyter Notebook. (ignored)
-/sources - Project directions, links to data sources, and references used in the report.
+
+|/data - Houses all .csv files from raw and processed data. (ignored)
+
+|/figures - Contains all plots and charts that have been generated and modified.
+
+|/reports - Contains bottom line reports and articles about the project.
+
+|/sandbox - Experiments and code snippets that did not make it into the final Jupyter Notebook. (ignored)
+
+|/sources - Project directions, links to data sources, and references used in the report.
