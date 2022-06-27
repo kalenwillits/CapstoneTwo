@@ -2,8 +2,6 @@
 #### Capstone Two
 Springboard Data Science Career Track: The second capstone project. The purpose of this project was to expand my knowledge in data science and make something useful while learning the data science stack. The predictive model used was a support vector regression and the experiment has been deemed a success by successfully predicting the trend of the test data with a 90% or higher P-value.
 
-[Read the report hosted on WordPress in blog format.](https://kwdatastories.wordpress.com/2020/08/15/predicting-airline-flight-delays/)
-
 *The directory "data" is purposefully ignored because the data set is too large for git hub. The data can be found at data.world:*
 
 Data sources can be viewed in the "sources/reference.md" file.
